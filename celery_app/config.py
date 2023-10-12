@@ -23,7 +23,7 @@ class BaseSettings:
     
     worker_concurrency = 1
     
-    inlude: list = ['tasks']
+    include: list = ['tasks']
     
 def get_settings():
     return BaseSettings()
